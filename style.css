@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: rgba(180, 177, 177, 0.675);
+
+}
+#site{
+    width: 100vw;
+}
+hr{
+    margin: 6vh 5vw;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:sticky;
+    height: 8vh;
+    padding:1vh 2vw;
+    background: rgba(255, 255, 255, 0.136);
+    
+}
+#left h1{
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 700;
+    font-size: 2vw;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+#right a{
+    font-weight: 400;
+    font-style: none;
+    color: #000;
+    text-decoration:none;
+}
+#right i{
+    cursor: pointer;
+}
+#page1 {
+    width: 100vw;
+    height: 100vh;
+    background: url(https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 70vh;
+}
+#top h1{
+    font-family: 'Tilt Prism', cursive;
+    color: #000000cd;
+    font-size: 5vw;
+    position: relative;
+    top: -14vh;
+    
+}
+#bottom{
+    text-align: center;
+    color: white;
+}
+#ping{
+    font-size: larger;
+}
+
+#page2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#page2 h1{
+    font-size: 5vh;
+    font-style: italic;
+    text-decoration: underline;
+}
+#page2 #b{
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+}
+#page2 #b p{
+    font-size: 3vh;
+    padding: 4vw;
+    line-height: 1;
+}
+#page3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#page3 h1{
+    font-size: 5vh;
+    font-style: italic;
+    text-decoration: underline;
+}
+#page3 #b{
+    display: flex;
+    align-items: center;
+    padding: 3vw;
+}
+#page3 #b p{
+    font-size: 3vh;
+    padding-right: 4vw;
+    line-height: 1;
+}
+#page3 img{
+    width: 45vw;
+}
+#page4{
+    width: 100vw;
+    height: 100vh; 
+    text-align: center;
+}
+#page4 h1{
+    font-style: italic;
+    text-decoration: underline;
+}
+#page4 img{
+    width:40vw;
+    height: 45vh;
+    padding: 1vw;
+}
+#ab{
+    width: 100vw;
+    height: 100vh; 
+    text-align: center;
+    padding: 2vw;
+}
+#ab h1{
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 5vh;
+}
+#ab p{
+    font-size: 3vh;
+    padding:10vh 15vw;
+}
+#con{
+    text-align: center;
+}
+#con #m{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#con h1{
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 5vh;
+}
+#con i{
+    padding: 10vh 0vw;
+   font-size: 8vw;
+   cursor: pointer;
+}
